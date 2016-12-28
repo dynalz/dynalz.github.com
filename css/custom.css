@@ -1,1 +1,14 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+.hoverProject:hover h6 {
+	-webkit-transition: color 0.5s; /* Safari */
+    transition: color 0.3s;
+}
+
+.hoverProject {
+    cursor: pointer;
+}
+
+.hoverProject:hover h6 {
+	color: #47AAFF;
+}
