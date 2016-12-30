@@ -21,14 +21,42 @@
 	height: 13px;
 }
 
-@media (max-width: 767px) {
-	.p0-xs {
-	    padding-left: 10px;
-	    padding-right: 4px;
-	} 
-}
-
 .bg-dark .back-to-top:hover {
 	color: #fff;
 	border-color: #13181d;
+}
+
+@media (max-width: 767px) {
+	.p0-xs {
+		height: 80px;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+	    padding-left: 10px;
+	    padding-right: 4px;
+	} 
+
+	h3.uppercase {
+		letter-spacing: 3px ;
+	}
+
+	h5.uppercase {
+		letter-spacing: 1px ;
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 380px) {
+	.p0-xs {
+	    padding-left: 6px;
+	    padding-right: 2px;
+	} 
+
+	h3.uppercase {
+		letter-spacing: 1px ;
+	}
+
+	h5.uppercase {
+		letter-spacing: 0px ;
+	}
 }
