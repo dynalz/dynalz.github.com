@@ -9,6 +9,14 @@
     cursor: pointer;
 }
 
-.hoverProject:hover h6 {
+.hoverProject:hover h6, ul.menu li a:hover  {
 	color: #47AAFF;
+}
+
+.logo {
+	height: 16px;
+}
+
+.logo-small {
+	height: 13px;
 }
