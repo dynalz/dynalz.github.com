@@ -280,7 +280,7 @@ $(document).ready(function() {
 
     // Image Sliders
 
-    $('.slider-all-controls').flexslider({
+    /*$('.slider-all-controls').flexslider({
         start: function(slider){
             if(slider.find('.slides li:first-child').find('.fs-vid-background video').length){
                slider.find('.slides li:first-child').find('.fs-vid-background video').get(0).play(); 
@@ -324,7 +324,7 @@ $(document).ready(function() {
         slideshowSpeed: 3000,
         directionNav: false,
         controlNav: false
-    });
+    });*/
     
     // Lightbox gallery titles
     

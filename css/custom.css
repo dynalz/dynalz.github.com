@@ -20,3 +20,15 @@
 .logo-small {
 	height: 13px;
 }
+
+@media (max-width: 767px) {
+	.p0-xs {
+	    padding-left: 10px;
+	    padding-right: 4px;
+	} 
+}
+
+.bg-dark .back-to-top:hover {
+	color: #fff;
+	border-color: #13181d;
+}
