@@ -1,5 +1,5 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
-canvas{ display: block; vertical-align: bottom; } #particles-js{ position: fixed; width: 100%; height: 100%; background-color: #13181d; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+canvas{ display: block; vertical-align: bottom; width: 120% !important; height: 120% !important; position: relative; left: -10%; top: -10%;} #particles-js{ position: fixed; width: 200%; height: 200%; background-color: #13181d;}
 .bg-primary {
 	background: transparent !important;
 }
