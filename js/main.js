@@ -69,11 +69,33 @@ particlesJS("particles-js",
 		}
 	},
 	"interactivity": {
+		"detect_on":"window",
+		"events":{
+			"onhover":{
+				"enable":true,
+				"mode":"grab"
+			},
+			"onclick":{
+				"enable":true,
+				"mode":"push"
+			},
+			"resize":true
+		},
+		"modes":{
+			"grab":{
+				"distance":350,
+				"line_linked":{
+					"opacity":1
+				}
+			},
+			"push":{
+				"particles_nb":2
+			}
+		}
 	},
 	"retina_detect": true
 });
 
 $(".hoverProject").click(function() {
-	console.log($(this).attr('href'))
 	window.location.href = "http://" + $(this).attr('href');
 });
