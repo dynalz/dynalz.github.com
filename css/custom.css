@@ -28,7 +28,9 @@ canvas{ display: block; vertical-align: bottom; } #particles-js{ position: fixed
 
 .bg-dark .back-to-top:hover {
 	color: #fff;
-	border-color: #13181d;
+	border-color: transparent;
+	font-size: 13px;
+	padding: 0 18px;
 }
 
 @media (max-width: 767px) {
