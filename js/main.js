@@ -73,7 +73,7 @@ particlesJS("particles-js",
 		"events":{
 			"onhover":{
 				"enable":true,
-				"mode":"grab"
+				"mode":"repulse"
 			},
 			"onclick":{
 				"enable":true,
@@ -96,6 +96,6 @@ particlesJS("particles-js",
 	"retina_detect": true
 });
 
-$(".hoverProject").click(function() {
-	window.location.href = "http://" + $(this).attr('href');
-});
+//$(".hoverProject").click(function() {
+//	window.location.href = "http://" + $(this).attr('href');
+//});
